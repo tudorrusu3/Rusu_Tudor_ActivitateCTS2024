@@ -1,1 +1,1 @@
-# Rusu_Tudor_ActivitateCTS2024
+# Repository creat pentru seminarul de Calitate și testare software
