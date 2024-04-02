@@ -6,7 +6,7 @@ public class Guvern {
     private int nrLuni;
     private static Guvern instanta;
 
-    private Guvern(int nrGuvernatori, String numePrimMinistru, int nrLuni) {
+    public Guvern(int nrGuvernatori, String numePrimMinistru, int nrLuni) {
         this.nrGuvernatori = nrGuvernatori;
         this.numePrimMinistru = numePrimMinistru;
         this.nrLuni = nrLuni;
