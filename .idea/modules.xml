@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/sem8/Composite/Composite.iml" filepath="$PROJECT_DIR$/sem8/Composite/Composite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sem8/Flyweight/Flyweight.iml" filepath="$PROJECT_DIR$/sem8/Flyweight/Flyweight.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Rusu_Tudor_ActivitateCTS2024.iml" filepath="$PROJECT_DIR$/.idea/Rusu_Tudor_ActivitateCTS2024.iml" />
       <module fileurl="file://$PROJECT_DIR$/sem2/sem2.iml" filepath="$PROJECT_DIR$/sem2/sem2.iml" />
       <module fileurl="file://$PROJECT_DIR$/sem3/sem3.iml" filepath="$PROJECT_DIR$/sem3/sem3.iml" />
@@ -11,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/sem5Prototype/sem5Prototype.iml" filepath="$PROJECT_DIR$/sem5Prototype/sem5Prototype.iml" />
       <module fileurl="file://$PROJECT_DIR$/sem6Online/sem6Online.iml" filepath="$PROJECT_DIR$/sem6Online/sem6Online.iml" />
       <module fileurl="file://$PROJECT_DIR$/sem7/sem7.iml" filepath="$PROJECT_DIR$/sem7/sem7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sem8/sem8.iml" filepath="$PROJECT_DIR$/sem8/sem8.iml" />
     </modules>
   </component>
 </project>
