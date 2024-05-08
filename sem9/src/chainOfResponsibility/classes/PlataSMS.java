@@ -1,9 +1,21 @@
-package strategy.classes;
+package chainOfResponsibility.classes;
 
-public class PlataSMS implements ModDePlata{
+public class PlataSMS extends ModDePlata {
+    private double credit;
+
+    public PlataSMS(double credit) {
+        this.credit = credit;
+    }
+
     @Override
     public void plateste(double pret) {
-        System.out.println("S a efecutat plata pentru calatoria in valoare de " +
-                + pret + " prin sms");
+        if (credit >= pret) {
+            System.out.println("S a efecutat plata pentru calatoria in valoare de " +
+                    +pret + " prin sms");
+            credit -= pret;
+        }
+        else{
+            super.succesor.plateste(pret);
+        }
     }
 }

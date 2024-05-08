@@ -1,12 +1,18 @@
-package strategy.classes;
+package chainOfResponsibility.classes;
 
 public class Validator {
     private int nrAutobuz;
     private ModDePlata modDePlata;
 
-    public Validator(int nrAutobuz, ModDePlata modDePlata) {
+    public Validator(int nrAutobuz) {
         this.nrAutobuz = nrAutobuz;
-        this.modDePlata = modDePlata;
+        this.modDePlata = new PlataCardCalatorii(1);
+        ModDePlata cardBancar = new PlataCardBancar(5);
+        modDePlata.setSuccesor(cardBancar);
+        ModDePlata plataSms = new PlataSMS(3);
+        cardBancar.setSuccesor(plataSms);
+        ModDePlata controlor = new Controlor();
+        plataSms.setSuccesor(controlor);
     }
 
     public int getNrAutobuz() {

@@ -1,5 +1,9 @@
-package strategy.classes;
+package chainOfResponsibility.classes;
 
-public interface ModDePlata {
-    void plateste(double pret);
+public abstract class ModDePlata {
+    protected ModDePlata succesor;
+    public abstract void plateste(double pret);
+    public void setSuccesor(ModDePlata succesor){
+        this.succesor = succesor;
+    }
 }

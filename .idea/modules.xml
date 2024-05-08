@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/sem8/Composite/Composite.iml" filepath="$PROJECT_DIR$/sem8/Composite/Composite.iml" />
       <module fileurl="file://$PROJECT_DIR$/sem8/Flyweight/Flyweight.iml" filepath="$PROJECT_DIR$/sem8/Flyweight/Flyweight.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Rusu_Tudor_ActivitateCTS2024.iml" filepath="$PROJECT_DIR$/.idea/Rusu_Tudor_ActivitateCTS2024.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sem10state/sem10.iml" filepath="$PROJECT_DIR$/sem10state/sem10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sem10template/sem10template.iml" filepath="$PROJECT_DIR$/sem10template/sem10template.iml" />
       <module fileurl="file://$PROJECT_DIR$/sem2/sem2.iml" filepath="$PROJECT_DIR$/sem2/sem2.iml" />
       <module fileurl="file://$PROJECT_DIR$/sem3/sem3.iml" filepath="$PROJECT_DIR$/sem3/sem3.iml" />
       <module fileurl="file://$PROJECT_DIR$/sem4/sem4.iml" filepath="$PROJECT_DIR$/sem4/sem4.iml" />
@@ -14,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/sem6Online/sem6Online.iml" filepath="$PROJECT_DIR$/sem6Online/sem6Online.iml" />
       <module fileurl="file://$PROJECT_DIR$/sem7/sem7.iml" filepath="$PROJECT_DIR$/sem7/sem7.iml" />
       <module fileurl="file://$PROJECT_DIR$/sem8/sem8.iml" filepath="$PROJECT_DIR$/sem8/sem8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sem9/sem9.iml" filepath="$PROJECT_DIR$/sem9/sem9.iml" />
     </modules>
   </component>
 </project>
